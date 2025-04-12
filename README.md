@@ -14,6 +14,6 @@ Data Cleaning: Data Cleaning.R
 My Data Analysis (Combined with Data Cleaning): Daryl Sim TP068964 - Data Analysis.R
 
 Group R Codes Complied by Me: Group 18 PFDA Assignment.R
-  Each member was working on their own part and it was an individual component
+- Each member was working on their own part and it was an individual component
 
 Group Assignment Report: Group 18 - PFDA Assignment Report.pdf

@@ -11,7 +11,7 @@ Original dataset (uncleaned): 5. credit_risk_classification.csv
 Dataset Description: 6. Dataset description.txt
 
 ### My Part
-Data Cleaning (For Group): Data Cleaning.R
+Data Cleaning (Used For Group): Data Cleaning.R
 
 My Graphs for Exploratory Data Analysis: In Graphs folder
 

@@ -1,0 +1,983 @@
+
+Call:
+glm(formula = credit_risk_class ~ loan_duration_category * personal_status * 
+    property_magnitude * credit_amount_category * age_group, 
+    family = binomial(link = "logit"), data = pfda_df_Group)
+
+Coefficients: (81 not defined because of singularities)
+                                                                                                                                             Estimate
+(Intercept)                                                                                                                                -1.585e+15
+loan_duration_category24+                                                                                                                  -1.194e+15
+personal_statusmale div/sep                                                                                                                -2.162e+14
+personal_statusmale mar/wid                                                                                                                 2.422e+15
+personal_statusmale single                                                                                                                  2.189e+15
+property_magnitudelife insurance                                                                                                            1.448e+15
+property_magnitudeno known property                                                                                                        -1.469e+15
+property_magnitudereal estate                                                                                                               3.670e+15
+credit_amount_category10000+                                                                                                               -2.918e+15
+age_groupmiddle_age                                                                                                                         5.255e+15
+age_groupolder                                                                                                                              6.089e+15
+loan_duration_category24+:personal_statusmale div/sep                                                                                      -1.509e+15
+loan_duration_category24+:personal_statusmale mar/wid                                                                                      -1.445e+15
+loan_duration_category24+:personal_statusmale single                                                                                       -3.682e+13
+loan_duration_category24+:property_magnitudelife insurance                                                                                  1.740e+15
+loan_duration_category24+:property_magnitudeno known property                                                                               1.453e+15
+loan_duration_category24+:property_magnitudereal estate                                                                                    -1.963e+15
+personal_statusmale div/sep:property_magnitudelife insurance                                                                               -2.185e+15
+personal_statusmale mar/wid:property_magnitudelife insurance                                                                               -3.164e+15
+personal_statusmale single:property_magnitudelife insurance                                                                                -1.437e+15
+personal_statusmale div/sep:property_magnitudeno known property                                                                             3.271e+15
+personal_statusmale mar/wid:property_magnitudeno known property                                                                             6.326e+14
+personal_statusmale single:property_magnitudeno known property                                                                             -6.351e+14
+personal_statusmale div/sep:property_magnitudereal estate                                                                                  -1.085e+15
+personal_statusmale mar/wid:property_magnitudereal estate                                                                                  -4.427e+15
+personal_statusmale single:property_magnitudereal estate                                                                                   -3.483e+15
+loan_duration_category24+:credit_amount_category10000+                                                                                      1.194e+15
+personal_statusmale div/sep:credit_amount_category10000+                                                                                    1.725e+15
+personal_statusmale mar/wid:credit_amount_category10000+                                                                                    2.696e+15
+personal_statusmale single:credit_amount_category10000+                                                                                    -2.189e+15
+property_magnitudelife insurance:credit_amount_category10000+                                                                              -2.142e+15
+property_magnitudeno known property:credit_amount_category10000+                                                                           -7.449e+14
+property_magnitudereal estate:credit_amount_category10000+                                                                                  2.797e+15
+loan_duration_category24+:age_groupmiddle_age                                                                                              -3.704e+15
+loan_duration_category24+:age_groupolder                                                                                                    8.787e+15
+personal_statusmale div/sep:age_groupmiddle_age                                                                                            -4.955e+15
+personal_statusmale mar/wid:age_groupmiddle_age                                                                                            -6.357e+15
+personal_statusmale single:age_groupmiddle_age                                                                                             -5.637e+15
+personal_statusmale div/sep:age_groupolder                                                                                                 -8.791e+15
+personal_statusmale mar/wid:age_groupolder                                                                                                 -6.926e+15
+personal_statusmale single:age_groupolder                                                                                                  -6.692e+15
+property_magnitudelife insurance:age_groupmiddle_age                                                                                       -3.392e+15
+property_magnitudeno known property:age_groupmiddle_age                                                                                    -9.135e+14
+property_magnitudereal estate:age_groupmiddle_age                                                                                          -7.852e+15
+property_magnitudelife insurance:age_groupolder                                                                                            -3.950e+15
+property_magnitudeno known property:age_groupolder                                                                                         -4.432e+15
+property_magnitudereal estate:age_groupolder                                                                                               -3.670e+15
+credit_amount_category10000+:age_groupmiddle_age                                                                                           -1.271e+15
+credit_amount_category10000+:age_groupolder                                                                                                -5.108e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance                                                      3.500e+15
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance                                                     -1.542e+15
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance                                                      -2.283e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property                                                   1.249e+15
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property                                                   1.185e+15
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property                                                    1.202e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate                                                         5.520e+15
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate                                                         1.861e+13
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate                                                          4.732e+14
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+                                                           1.626e+15
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+                                                    -1.046e+15
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+                                                 -2.443e+15
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+                                                               NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                                  -1.315e+15
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                                   2.005e+15
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                                    6.635e+15
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                                               -1.315e+15
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                                                1.434e+15
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                                                 2.849e+15
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                                              NA
+loan_duration_category24+:personal_statusmale div/sep:age_groupmiddle_age                                                                   7.264e+15
+loan_duration_category24+:personal_statusmale mar/wid:age_groupmiddle_age                                                                   2.104e+15
+loan_duration_category24+:personal_statusmale single:age_groupmiddle_age                                                                    6.318e+15
+loan_duration_category24+:personal_statusmale div/sep:age_groupolder                                                                       -4.494e+15
+loan_duration_category24+:personal_statusmale mar/wid:age_groupolder                                                                               NA
+loan_duration_category24+:personal_statusmale single:age_groupolder                                                                        -7.557e+15
+loan_duration_category24+:property_magnitudelife insurance:age_groupmiddle_age                                                             -4.981e+14
+loan_duration_category24+:property_magnitudeno known property:age_groupmiddle_age                                                          -2.345e+15
+loan_duration_category24+:property_magnitudereal estate:age_groupmiddle_age                                                                 6.731e+15
+loan_duration_category24+:property_magnitudelife insurance:age_groupolder                                                                  -1.134e+16
+loan_duration_category24+:property_magnitudeno known property:age_groupolder                                                               -7.649e+15
+loan_duration_category24+:property_magnitudereal estate:age_groupolder                                                                     -2.519e+15
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                                            4.729e+15
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                                            4.086e+15
+personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                                             3.916e+15
+personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                                        -8.879e+14
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                                         1.905e+15
+personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                                          5.258e+15
+personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                                               6.936e+15
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                                               1.169e+16
+personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                                                9.626e+15
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                                                 9.191e+15
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                                                 5.666e+15
+personal_statusmale single:property_magnitudelife insurance:age_groupolder                                                                  5.741e+15
+personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale single:property_magnitudeno known property:age_groupolder                                                               8.479e+15
+personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                                    1.009e+16
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                                           NA
+personal_statusmale single:property_magnitudereal estate:age_groupolder                                                                     2.988e+15
+loan_duration_category24+:credit_amount_category10000+:age_groupmiddle_age                                                                  3.000e+14
+loan_duration_category24+:credit_amount_category10000+:age_groupolder                                                                       5.518e+15
+personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                                                1.614e+15
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                                                       NA
+personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                                                 1.653e+15
+personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale single:credit_amount_category10000+:age_groupolder                                                                      1.664e+15
+property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                                          -1.519e+15
+property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                                        3.648e+15
+property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                                              5.422e+14
+property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                                                       NA
+property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                                                    NA
+property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                                          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                 NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                              NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                    NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                 -7.402e+15
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                  4.024e+15
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                  -1.420e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                               2.865e+14
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                               4.056e+15
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                               -5.957e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                    -1.582e+16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                     -8.807e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupolder                                        5.573e+15
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupolder                                            NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                              NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupolder                                                   NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                        NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                     NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                           NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                             NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                          NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                       NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                           -4.291e+15
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                   NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                    NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                          NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                            NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                         NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age             NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                  NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                     NA
+                                                                                                                                           Std. Error
+(Intercept)                                                                                                                                 3.465e+06
+loan_duration_category24+                                                                                                                   6.629e+06
+personal_statusmale div/sep                                                                                                                 7.410e+06
+personal_statusmale mar/wid                                                                                                                 6.051e+06
+personal_statusmale single                                                                                                                  5.103e+06
+property_magnitudelife insurance                                                                                                            4.948e+06
+property_magnitudeno known property                                                                                                         7.153e+06
+property_magnitudereal estate                                                                                                               5.533e+06
+credit_amount_category10000+                                                                                                                3.373e+07
+age_groupmiddle_age                                                                                                                         8.223e+06
+age_groupolder                                                                                                                              1.171e+07
+loan_duration_category24+:personal_statusmale div/sep                                                                                       1.352e+07
+loan_duration_category24+:personal_statusmale mar/wid                                                                                       1.346e+07
+loan_duration_category24+:personal_statusmale single                                                                                        9.300e+06
+loan_duration_category24+:property_magnitudelife insurance                                                                                  1.117e+07
+loan_duration_category24+:property_magnitudeno known property                                                                               1.544e+07
+loan_duration_category24+:property_magnitudereal estate                                                                                     1.303e+07
+personal_statusmale div/sep:property_magnitudelife insurance                                                                                1.222e+07
+personal_statusmale mar/wid:property_magnitudelife insurance                                                                                1.020e+07
+personal_statusmale single:property_magnitudelife insurance                                                                                 8.006e+06
+personal_statusmale div/sep:property_magnitudeno known property                                                                             1.855e+07
+personal_statusmale mar/wid:property_magnitudeno known property                                                                             1.362e+07
+personal_statusmale single:property_magnitudeno known property                                                                              1.034e+07
+personal_statusmale div/sep:property_magnitudereal estate                                                                                   1.641e+07
+personal_statusmale mar/wid:property_magnitudereal estate                                                                                   9.733e+06
+personal_statusmale single:property_magnitudereal estate                                                                                    8.025e+06
+loan_duration_category24+:credit_amount_category10000+                                                                                      3.633e+07
+personal_statusmale div/sep:credit_amount_category10000+                                                                                    3.207e+07
+personal_statusmale mar/wid:credit_amount_category10000+                                                                                    1.423e+08
+personal_statusmale single:credit_amount_category10000+                                                                                     4.237e+07
+property_magnitudelife insurance:credit_amount_category10000+                                                                               6.275e+07
+property_magnitudeno known property:credit_amount_category10000+                                                                            1.043e+08
+property_magnitudereal estate:credit_amount_category10000+                                                                                  3.450e+07
+loan_duration_category24+:age_groupmiddle_age                                                                                               1.744e+07
+loan_duration_category24+:age_groupolder                                                                                                    4.165e+07
+personal_statusmale div/sep:age_groupmiddle_age                                                                                             1.727e+07
+personal_statusmale mar/wid:age_groupmiddle_age                                                                                             1.259e+07
+personal_statusmale single:age_groupmiddle_age                                                                                              1.000e+07
+personal_statusmale div/sep:age_groupolder                                                                                                  3.614e+07
+personal_statusmale mar/wid:age_groupolder                                                                                                  2.692e+07
+personal_statusmale single:age_groupolder                                                                                                   2.080e+07
+property_magnitudelife insurance:age_groupmiddle_age                                                                                        1.105e+07
+property_magnitudeno known property:age_groupmiddle_age                                                                                     1.636e+07
+property_magnitudereal estate:age_groupmiddle_age                                                                                           1.197e+07
+property_magnitudelife insurance:age_groupolder                                                                                             1.999e+07
+property_magnitudeno known property:age_groupolder                                                                                          1.821e+07
+property_magnitudereal estate:age_groupolder                                                                                                1.656e+07
+credit_amount_category10000+:age_groupmiddle_age                                                                                            1.196e+08
+credit_amount_category10000+:age_groupolder                                                                                                 9.730e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance                                                      2.308e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance                                                      2.086e+07
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance                                                       1.541e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property                                                   2.920e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property                                                   3.238e+07
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property                                                    1.997e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate                                                         3.023e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate                                                         5.097e+07
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate                                                          2.113e+07
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+                                                           4.624e+07
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+                                                     5.850e+07
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+                                                  4.783e+07
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+                                                               NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                                   4.796e+07
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                                   7.127e+07
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                                    3.166e+07
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                                                1.038e+08
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                                                1.632e+08
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                                                 9.510e+07
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                                              NA
+loan_duration_category24+:personal_statusmale div/sep:age_groupmiddle_age                                                                   2.813e+07
+loan_duration_category24+:personal_statusmale mar/wid:age_groupmiddle_age                                                                   2.753e+07
+loan_duration_category24+:personal_statusmale single:age_groupmiddle_age                                                                    2.024e+07
+loan_duration_category24+:personal_statusmale div/sep:age_groupolder                                                                        6.307e+07
+loan_duration_category24+:personal_statusmale mar/wid:age_groupolder                                                                               NA
+loan_duration_category24+:personal_statusmale single:age_groupolder                                                                         3.333e+07
+loan_duration_category24+:property_magnitudelife insurance:age_groupmiddle_age                                                              3.272e+07
+loan_duration_category24+:property_magnitudeno known property:age_groupmiddle_age                                                           3.270e+07
+loan_duration_category24+:property_magnitudereal estate:age_groupmiddle_age                                                                 2.844e+07
+loan_duration_category24+:property_magnitudelife insurance:age_groupolder                                                                   6.571e+07
+loan_duration_category24+:property_magnitudeno known property:age_groupolder                                                                3.124e+07
+loan_duration_category24+:property_magnitudereal estate:age_groupolder                                                                      4.928e+07
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                                            2.569e+07
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                                            2.428e+07
+personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                                             1.402e+07
+personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                                         3.103e+07
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                                         2.404e+07
+personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                                          1.928e+07
+personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                                               2.714e+07
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                                               1.855e+07
+personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                                                1.467e+07
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                                                 4.501e+07
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                                                 4.656e+07
+personal_statusmale single:property_magnitudelife insurance:age_groupolder                                                                  3.195e+07
+personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale single:property_magnitudeno known property:age_groupolder                                                               2.752e+07
+personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                                    4.363e+07
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                                           NA
+personal_statusmale single:property_magnitudereal estate:age_groupolder                                                                     2.567e+07
+loan_duration_category24+:credit_amount_category10000+:age_groupmiddle_age                                                                  4.714e+07
+loan_duration_category24+:credit_amount_category10000+:age_groupolder                                                                       4.877e+07
+personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                                                1.446e+08
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                                                       NA
+personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                                                 1.320e+08
+personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale single:credit_amount_category10000+:age_groupolder                                                                      8.809e+07
+property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                                           4.783e+07
+property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                                        2.959e+07
+property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                                              1.478e+08
+property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                                                       NA
+property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                                                    NA
+property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                                          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                 NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                              NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                    NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                  4.772e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                  4.969e+07
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                   3.609e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                               6.121e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                               5.070e+07
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                3.713e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                     5.651e+07
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                      3.592e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupolder                                        7.460e+07
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupolder                                            NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                              NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupolder                                                   NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                        NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                     NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                           NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                             NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                          NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                       NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                            7.924e+07
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                   NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                    NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                          NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                            NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                         NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age             NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                  NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                     NA
+                                                                                                                                              z value
+(Intercept)                                                                                                                                -457444119
+loan_duration_category24+                                                                                                                  -180036244
+personal_statusmale div/sep                                                                                                                 -29175051
+personal_statusmale mar/wid                                                                                                                 400237930
+personal_statusmale single                                                                                                                  428884940
+property_magnitudelife insurance                                                                                                            292637626
+property_magnitudeno known property                                                                                                        -205405218
+property_magnitudereal estate                                                                                                               663157898
+credit_amount_category10000+                                                                                                                -86512505
+age_groupmiddle_age                                                                                                                         639083280
+age_groupolder                                                                                                                              519999025
+loan_duration_category24+:personal_statusmale div/sep                                                                                      -111622623
+loan_duration_category24+:personal_statusmale mar/wid                                                                                      -107333691
+loan_duration_category24+:personal_statusmale single                                                                                         -3959227
+loan_duration_category24+:property_magnitudelife insurance                                                                                  155858983
+loan_duration_category24+:property_magnitudeno known property                                                                                94091985
+loan_duration_category24+:property_magnitudereal estate                                                                                    -150652526
+personal_statusmale div/sep:property_magnitudelife insurance                                                                               -178845496
+personal_statusmale mar/wid:property_magnitudelife insurance                                                                               -310184143
+personal_statusmale single:property_magnitudelife insurance                                                                                -179504626
+personal_statusmale div/sep:property_magnitudeno known property                                                                             176281705
+personal_statusmale mar/wid:property_magnitudeno known property                                                                              46432255
+personal_statusmale single:property_magnitudeno known property                                                                              -61429451
+personal_statusmale div/sep:property_magnitudereal estate                                                                                   -66108442
+personal_statusmale mar/wid:property_magnitudereal estate                                                                                  -454867355
+personal_statusmale single:property_magnitudereal estate                                                                                   -433983808
+loan_duration_category24+:credit_amount_category10000+                                                                                       32851724
+personal_statusmale div/sep:credit_amount_category10000+                                                                                     53782413
+personal_statusmale mar/wid:credit_amount_category10000+                                                                                     18940107
+personal_statusmale single:credit_amount_category10000+                                                                                     -51651605
+property_magnitudelife insurance:credit_amount_category10000+                                                                               -34135657
+property_magnitudeno known property:credit_amount_category10000+                                                                             -7145661
+property_magnitudereal estate:credit_amount_category10000+                                                                                   81082423
+loan_duration_category24+:age_groupmiddle_age                                                                                              -212365948
+loan_duration_category24+:age_groupolder                                                                                                    210957469
+personal_statusmale div/sep:age_groupmiddle_age                                                                                            -286941140
+personal_statusmale mar/wid:age_groupmiddle_age                                                                                            -504980683
+personal_statusmale single:age_groupmiddle_age                                                                                             -563393593
+personal_statusmale div/sep:age_groupolder                                                                                                 -243267710
+personal_statusmale mar/wid:age_groupolder                                                                                                 -257269089
+personal_statusmale single:age_groupolder                                                                                                  -321747604
+property_magnitudelife insurance:age_groupmiddle_age                                                                                       -306873874
+property_magnitudeno known property:age_groupmiddle_age                                                                                     -55841557
+property_magnitudereal estate:age_groupmiddle_age                                                                                          -656116970
+property_magnitudelife insurance:age_groupolder                                                                                            -197555008
+property_magnitudeno known property:age_groupolder                                                                                         -243391662
+property_magnitudereal estate:age_groupolder                                                                                               -221592165
+credit_amount_category10000+:age_groupmiddle_age                                                                                            -10624052
+credit_amount_category10000+:age_groupolder                                                                                                 -52501719
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance                                                      151630312
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance                                                      -73894069
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance                                                      -148199138
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property                                                    42788847
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property                                                    36608418
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property                                                     60197716
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate                                                         182600771
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate                                                            365104
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate                                                           22393158
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+                                                                 NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+                                                            35169199
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+                                                     -17887778
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+                                                  -51085259
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+                                                               NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                                   -27427388
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                                    28139153
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                                    209569290
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                                                -12669876
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                                                  8789658
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                                                  29963544
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                                              NA
+loan_duration_category24+:personal_statusmale div/sep:age_groupmiddle_age                                                                   258212704
+loan_duration_category24+:personal_statusmale mar/wid:age_groupmiddle_age                                                                    76418969
+loan_duration_category24+:personal_statusmale single:age_groupmiddle_age                                                                    312105759
+loan_duration_category24+:personal_statusmale div/sep:age_groupolder                                                                        -71247294
+loan_duration_category24+:personal_statusmale mar/wid:age_groupolder                                                                               NA
+loan_duration_category24+:personal_statusmale single:age_groupolder                                                                        -226737131
+loan_duration_category24+:property_magnitudelife insurance:age_groupmiddle_age                                                              -15225360
+loan_duration_category24+:property_magnitudeno known property:age_groupmiddle_age                                                           -71732642
+loan_duration_category24+:property_magnitudereal estate:age_groupmiddle_age                                                                 236665803
+loan_duration_category24+:property_magnitudelife insurance:age_groupolder                                                                  -172507890
+loan_duration_category24+:property_magnitudeno known property:age_groupolder                                                               -244848908
+loan_duration_category24+:property_magnitudereal estate:age_groupolder                                                                      -51111662
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                                            184122077
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                                            168256289
+personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                                             279204543
+personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                                         -28615962
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                                          79241050
+personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                                          272703143
+personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                                               255583056
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                                               630317637
+personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                                                656040448
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                                                 204197034
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                                                 121672864
+personal_statusmale single:property_magnitudelife insurance:age_groupolder                                                                  179647844
+personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                                                     NA
+personal_statusmale single:property_magnitudeno known property:age_groupolder                                                               308163408
+personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                                    231300300
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                                           NA
+personal_statusmale single:property_magnitudereal estate:age_groupolder                                                                     116415959
+loan_duration_category24+:credit_amount_category10000+:age_groupmiddle_age                                                                    6364666
+loan_duration_category24+:credit_amount_category10000+:age_groupolder                                                                       113143760
+personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                                                 11161669
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                                                       NA
+personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                                                  12519211
+personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                                            NA
+personal_statusmale single:credit_amount_category10000+:age_groupolder                                                                       18893004
+property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                                           -31768702
+property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                                        123259926
+property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                                                3668484
+property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                                                       NA
+property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                                                    NA
+property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                                          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                 NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                             NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                              NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                   NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                    NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                 -155095247
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                   80967418
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                   -39348665
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                 4680705
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                79998526
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                               -160422635
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                    -279845672
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                     -245190024
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupolder                                         74711951
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                           NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupolder                                            NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                             NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                              NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                  NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupolder                                                   NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                        NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                     NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                           NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                             NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                          NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                       NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                            -54149834
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                   NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                    NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                          NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                            NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                         NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age             NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age         NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age               NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                  NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                    NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                     NA
+                                                                                                                                           Pr(>|z|)
+(Intercept)                                                                                                                                  <2e-16
+loan_duration_category24+                                                                                                                    <2e-16
+personal_statusmale div/sep                                                                                                                  <2e-16
+personal_statusmale mar/wid                                                                                                                  <2e-16
+personal_statusmale single                                                                                                                   <2e-16
+property_magnitudelife insurance                                                                                                             <2e-16
+property_magnitudeno known property                                                                                                          <2e-16
+property_magnitudereal estate                                                                                                                <2e-16
+credit_amount_category10000+                                                                                                                 <2e-16
+age_groupmiddle_age                                                                                                                          <2e-16
+age_groupolder                                                                                                                               <2e-16
+loan_duration_category24+:personal_statusmale div/sep                                                                                        <2e-16
+loan_duration_category24+:personal_statusmale mar/wid                                                                                        <2e-16
+loan_duration_category24+:personal_statusmale single                                                                                         <2e-16
+loan_duration_category24+:property_magnitudelife insurance                                                                                   <2e-16
+loan_duration_category24+:property_magnitudeno known property                                                                                <2e-16
+loan_duration_category24+:property_magnitudereal estate                                                                                      <2e-16
+personal_statusmale div/sep:property_magnitudelife insurance                                                                                 <2e-16
+personal_statusmale mar/wid:property_magnitudelife insurance                                                                                 <2e-16
+personal_statusmale single:property_magnitudelife insurance                                                                                  <2e-16
+personal_statusmale div/sep:property_magnitudeno known property                                                                              <2e-16
+personal_statusmale mar/wid:property_magnitudeno known property                                                                              <2e-16
+personal_statusmale single:property_magnitudeno known property                                                                               <2e-16
+personal_statusmale div/sep:property_magnitudereal estate                                                                                    <2e-16
+personal_statusmale mar/wid:property_magnitudereal estate                                                                                    <2e-16
+personal_statusmale single:property_magnitudereal estate                                                                                     <2e-16
+loan_duration_category24+:credit_amount_category10000+                                                                                       <2e-16
+personal_statusmale div/sep:credit_amount_category10000+                                                                                     <2e-16
+personal_statusmale mar/wid:credit_amount_category10000+                                                                                     <2e-16
+personal_statusmale single:credit_amount_category10000+                                                                                      <2e-16
+property_magnitudelife insurance:credit_amount_category10000+                                                                                <2e-16
+property_magnitudeno known property:credit_amount_category10000+                                                                             <2e-16
+property_magnitudereal estate:credit_amount_category10000+                                                                                   <2e-16
+loan_duration_category24+:age_groupmiddle_age                                                                                                <2e-16
+loan_duration_category24+:age_groupolder                                                                                                     <2e-16
+personal_statusmale div/sep:age_groupmiddle_age                                                                                              <2e-16
+personal_statusmale mar/wid:age_groupmiddle_age                                                                                              <2e-16
+personal_statusmale single:age_groupmiddle_age                                                                                               <2e-16
+personal_statusmale div/sep:age_groupolder                                                                                                   <2e-16
+personal_statusmale mar/wid:age_groupolder                                                                                                   <2e-16
+personal_statusmale single:age_groupolder                                                                                                    <2e-16
+property_magnitudelife insurance:age_groupmiddle_age                                                                                         <2e-16
+property_magnitudeno known property:age_groupmiddle_age                                                                                      <2e-16
+property_magnitudereal estate:age_groupmiddle_age                                                                                            <2e-16
+property_magnitudelife insurance:age_groupolder                                                                                              <2e-16
+property_magnitudeno known property:age_groupolder                                                                                           <2e-16
+property_magnitudereal estate:age_groupolder                                                                                                 <2e-16
+credit_amount_category10000+:age_groupmiddle_age                                                                                             <2e-16
+credit_amount_category10000+:age_groupolder                                                                                                  <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance                                                       <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance                                                       <2e-16
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance                                                        <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property                                                    <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property                                                    <2e-16
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property                                                     <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate                                                          <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate                                                          <2e-16
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate                                                           <2e-16
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+                                                               NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+                                                               NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+                                                            <2e-16
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+                                                      <2e-16
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+                                                   <2e-16
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+                                                             NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                                    <2e-16
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                                    <2e-16
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                                     <2e-16
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                                                 <2e-16
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                                                 <2e-16
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                                                  <2e-16
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                                           NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                                           NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                                            NA
+loan_duration_category24+:personal_statusmale div/sep:age_groupmiddle_age                                                                    <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:age_groupmiddle_age                                                                    <2e-16
+loan_duration_category24+:personal_statusmale single:age_groupmiddle_age                                                                     <2e-16
+loan_duration_category24+:personal_statusmale div/sep:age_groupolder                                                                         <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:age_groupolder                                                                             NA
+loan_duration_category24+:personal_statusmale single:age_groupolder                                                                          <2e-16
+loan_duration_category24+:property_magnitudelife insurance:age_groupmiddle_age                                                               <2e-16
+loan_duration_category24+:property_magnitudeno known property:age_groupmiddle_age                                                            <2e-16
+loan_duration_category24+:property_magnitudereal estate:age_groupmiddle_age                                                                  <2e-16
+loan_duration_category24+:property_magnitudelife insurance:age_groupolder                                                                    <2e-16
+loan_duration_category24+:property_magnitudeno known property:age_groupolder                                                                 <2e-16
+loan_duration_category24+:property_magnitudereal estate:age_groupolder                                                                       <2e-16
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                                             <2e-16
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                                             <2e-16
+personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                                              <2e-16
+personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                                          <2e-16
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                                          <2e-16
+personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                                           <2e-16
+personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                                                <2e-16
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                                                <2e-16
+personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                                                 <2e-16
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                                                  <2e-16
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                                                  <2e-16
+personal_statusmale single:property_magnitudelife insurance:age_groupolder                                                                   <2e-16
+personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                                                   NA
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                                                   NA
+personal_statusmale single:property_magnitudeno known property:age_groupolder                                                                <2e-16
+personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                                     <2e-16
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                                         NA
+personal_statusmale single:property_magnitudereal estate:age_groupolder                                                                      <2e-16
+loan_duration_category24+:credit_amount_category10000+:age_groupmiddle_age                                                                   <2e-16
+loan_duration_category24+:credit_amount_category10000+:age_groupolder                                                                        <2e-16
+personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                                                 <2e-16
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                                                     NA
+personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                                                  <2e-16
+personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                                          NA
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                                          NA
+personal_statusmale single:credit_amount_category10000+:age_groupolder                                                                       <2e-16
+property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                                            <2e-16
+property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                                         <2e-16
+property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                                               <2e-16
+property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                                                     NA
+property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                                                  NA
+property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                                        NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                              NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                              NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                               NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                           NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                           NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                            NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                 NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                 NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                  NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                   <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                   <2e-16
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                    <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                <2e-16
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                 <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                      <2e-16
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                          NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                       <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                            NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupolder                                         <2e-16
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                         NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                         NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupolder                                          NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                               NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                               NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupolder                                                NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                           NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                           NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                            NA
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                NA
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                NA
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupolder                                                 NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                      NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                   NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                         NA
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                           NA
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                        NA
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                              NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                    NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                    NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                     NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                             <2e-16
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                 NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                  NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                       NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                       NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                        NA
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                         NA
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                         NA
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                          NA
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                      NA
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                      NA
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                       NA
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                            NA
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                            NA
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                             NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age          NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age          NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age           NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age       NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age       NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age        NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age             NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age             NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age              NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder               NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder               NA
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder            NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder            NA
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder             NA
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                  NA
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                  NA
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                   NA
+                                                                                                                                              
+(Intercept)                                                                                                                                ***
+loan_duration_category24+                                                                                                                  ***
+personal_statusmale div/sep                                                                                                                ***
+personal_statusmale mar/wid                                                                                                                ***
+personal_statusmale single                                                                                                                 ***
+property_magnitudelife insurance                                                                                                           ***
+property_magnitudeno known property                                                                                                        ***
+property_magnitudereal estate                                                                                                              ***
+credit_amount_category10000+                                                                                                               ***
+age_groupmiddle_age                                                                                                                        ***
+age_groupolder                                                                                                                             ***
+loan_duration_category24+:personal_statusmale div/sep                                                                                      ***
+loan_duration_category24+:personal_statusmale mar/wid                                                                                      ***
+loan_duration_category24+:personal_statusmale single                                                                                       ***
+loan_duration_category24+:property_magnitudelife insurance                                                                                 ***
+loan_duration_category24+:property_magnitudeno known property                                                                              ***
+loan_duration_category24+:property_magnitudereal estate                                                                                    ***
+personal_statusmale div/sep:property_magnitudelife insurance                                                                               ***
+personal_statusmale mar/wid:property_magnitudelife insurance                                                                               ***
+personal_statusmale single:property_magnitudelife insurance                                                                                ***
+personal_statusmale div/sep:property_magnitudeno known property                                                                            ***
+personal_statusmale mar/wid:property_magnitudeno known property                                                                            ***
+personal_statusmale single:property_magnitudeno known property                                                                             ***
+personal_statusmale div/sep:property_magnitudereal estate                                                                                  ***
+personal_statusmale mar/wid:property_magnitudereal estate                                                                                  ***
+personal_statusmale single:property_magnitudereal estate                                                                                   ***
+loan_duration_category24+:credit_amount_category10000+                                                                                     ***
+personal_statusmale div/sep:credit_amount_category10000+                                                                                   ***
+personal_statusmale mar/wid:credit_amount_category10000+                                                                                   ***
+personal_statusmale single:credit_amount_category10000+                                                                                    ***
+property_magnitudelife insurance:credit_amount_category10000+                                                                              ***
+property_magnitudeno known property:credit_amount_category10000+                                                                           ***
+property_magnitudereal estate:credit_amount_category10000+                                                                                 ***
+loan_duration_category24+:age_groupmiddle_age                                                                                              ***
+loan_duration_category24+:age_groupolder                                                                                                   ***
+personal_statusmale div/sep:age_groupmiddle_age                                                                                            ***
+personal_statusmale mar/wid:age_groupmiddle_age                                                                                            ***
+personal_statusmale single:age_groupmiddle_age                                                                                             ***
+personal_statusmale div/sep:age_groupolder                                                                                                 ***
+personal_statusmale mar/wid:age_groupolder                                                                                                 ***
+personal_statusmale single:age_groupolder                                                                                                  ***
+property_magnitudelife insurance:age_groupmiddle_age                                                                                       ***
+property_magnitudeno known property:age_groupmiddle_age                                                                                    ***
+property_magnitudereal estate:age_groupmiddle_age                                                                                          ***
+property_magnitudelife insurance:age_groupolder                                                                                            ***
+property_magnitudeno known property:age_groupolder                                                                                         ***
+property_magnitudereal estate:age_groupolder                                                                                               ***
+credit_amount_category10000+:age_groupmiddle_age                                                                                           ***
+credit_amount_category10000+:age_groupolder                                                                                                ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance                                                     ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance                                                     ***
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance                                                      ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property                                                  ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property                                                  ***
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property                                                   ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate                                                        ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate                                                        ***
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate                                                         ***
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+                                                            
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+                                                            
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+                                                          ***
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+                                                    ***
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+                                                 ***
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+                                                          
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                                                  ***
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                                                  ***
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                                                   ***
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                                               ***
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                                               ***
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                                                ***
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                                                        
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                                                        
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                                                         
+loan_duration_category24+:personal_statusmale div/sep:age_groupmiddle_age                                                                  ***
+loan_duration_category24+:personal_statusmale mar/wid:age_groupmiddle_age                                                                  ***
+loan_duration_category24+:personal_statusmale single:age_groupmiddle_age                                                                   ***
+loan_duration_category24+:personal_statusmale div/sep:age_groupolder                                                                       ***
+loan_duration_category24+:personal_statusmale mar/wid:age_groupolder                                                                          
+loan_duration_category24+:personal_statusmale single:age_groupolder                                                                        ***
+loan_duration_category24+:property_magnitudelife insurance:age_groupmiddle_age                                                             ***
+loan_duration_category24+:property_magnitudeno known property:age_groupmiddle_age                                                          ***
+loan_duration_category24+:property_magnitudereal estate:age_groupmiddle_age                                                                ***
+loan_duration_category24+:property_magnitudelife insurance:age_groupolder                                                                  ***
+loan_duration_category24+:property_magnitudeno known property:age_groupolder                                                               ***
+loan_duration_category24+:property_magnitudereal estate:age_groupolder                                                                     ***
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                                           ***
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                                           ***
+personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                                            ***
+personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                                                        ***
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                                                        ***
+personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                                                         ***
+personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                                              ***
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                                              ***
+personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                                               ***
+personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                                                ***
+personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                                                ***
+personal_statusmale single:property_magnitudelife insurance:age_groupolder                                                                 ***
+personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                                                
+personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                                                
+personal_statusmale single:property_magnitudeno known property:age_groupolder                                                              ***
+personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                                                   ***
+personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                                                      
+personal_statusmale single:property_magnitudereal estate:age_groupolder                                                                    ***
+loan_duration_category24+:credit_amount_category10000+:age_groupmiddle_age                                                                 ***
+loan_duration_category24+:credit_amount_category10000+:age_groupolder                                                                      ***
+personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                                               ***
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                                                  
+personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                                                ***
+personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                                                       
+personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                                                       
+personal_statusmale single:credit_amount_category10000+:age_groupolder                                                                     ***
+property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                                          ***
+property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                                       ***
+property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                                             ***
+property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                                                  
+property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                                               
+property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                                                     
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+                           
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+                           
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+                            
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+                        
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+                        
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+                         
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+                              
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+                              
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+                               
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupmiddle_age                                 ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupmiddle_age                                 ***
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupmiddle_age                                  ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupmiddle_age                              ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupmiddle_age                              ***
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupmiddle_age                               ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupmiddle_age                                    ***
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupmiddle_age                                       
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupmiddle_age                                     ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:age_groupolder                                         
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:age_groupolder                                         
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:age_groupolder                                       ***
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:age_groupolder                                      
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:age_groupolder                                      
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:age_groupolder                                       
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:age_groupolder                                            
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:age_groupolder                                            
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:age_groupolder                                             
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupmiddle_age                                        
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupmiddle_age                                        
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupmiddle_age                                         
+loan_duration_category24+:personal_statusmale div/sep:credit_amount_category10000+:age_groupolder                                             
+loan_duration_category24+:personal_statusmale mar/wid:credit_amount_category10000+:age_groupolder                                             
+loan_duration_category24+:personal_statusmale single:credit_amount_category10000+:age_groupolder                                              
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                   
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                                
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                      
+loan_duration_category24+:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                        
+loan_duration_category24+:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                     
+loan_duration_category24+:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                           
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                 
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                 
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age                                  
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                           ***
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                              
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age                               
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                    
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                    
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age                                     
+personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                      
+personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                      
+personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder                                       
+personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                   
+personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                   
+personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder                                    
+personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                         
+personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                         
+personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                                          
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age       
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age       
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupmiddle_age        
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age    
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age    
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupmiddle_age     
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age          
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age          
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupmiddle_age           
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder            
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder            
+loan_duration_category24+:personal_statusmale single:property_magnitudelife insurance:credit_amount_category10000+:age_groupolder             
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudeno known property:credit_amount_category10000+:age_groupolder         
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudeno known property:credit_amount_category10000+:age_groupolder         
+loan_duration_category24+:personal_statusmale single:property_magnitudeno known property:credit_amount_category10000+:age_groupolder          
+loan_duration_category24+:personal_statusmale div/sep:property_magnitudereal estate:credit_amount_category10000+:age_groupolder               
+loan_duration_category24+:personal_statusmale mar/wid:property_magnitudereal estate:credit_amount_category10000+:age_groupolder               
+loan_duration_category24+:personal_statusmale single:property_magnitudereal estate:credit_amount_category10000+:age_groupolder                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance:   8317.8  on 5999  degrees of freedom
+Residual deviance: 148571.9  on 5889  degrees of freedom
+AIC: 148794
+
+Number of Fisher Scoring iterations: 25
+
